@@ -1,0 +1,14 @@
+package in.org.rebit.infrabooking.service.impl;
+
+import in.org.rebit.infrabooking.entity.Room;
+import in.org.rebit.infrabooking.service.RoomService;
+
+public class RoomServiceImpl implements RoomService {
+
+	@Override
+	public Room createRoom(Room r) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

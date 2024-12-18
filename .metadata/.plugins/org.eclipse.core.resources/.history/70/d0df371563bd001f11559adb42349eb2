@@ -1,0 +1,7 @@
+package in.org.rebit.infrabooking.service.impl;
+
+import in.org.rebit.infrabooking.service.RoomService;
+
+public class RoomServiceImpl implements RoomService {
+
+}

@@ -1,0 +1,5 @@
+package in.org.rebit.infrabooking.dao;
+
+public interface RoomDao {
+
+}
