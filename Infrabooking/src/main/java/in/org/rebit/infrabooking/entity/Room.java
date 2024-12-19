@@ -12,7 +12,6 @@ public class Room {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	private int capacity;
-	private String type;
 	public int getId() {
 		return id;
 	}
@@ -25,19 +24,16 @@ public class Room {
 	public void setCapacity(int capacity) {
 		this.capacity = capacity;
 	}
-	public String getType() {
-		return type;
-	}
-	public void setType(String type) {
-		this.type = type;
-	}
-	public Room(int capacity, String type) {
+	public Room(int capacity) {
 		super();
 		this.capacity = capacity;
-		this.type = type;
 	}
 	@Override
 	public String toString() {
-		return "Room [id=" + id + ", capacity=" + capacity + ", type=" + type + "]";
+		return "Room [id=" + id + ", capacity=" + capacity +  "]";
+	}
+	
+	public Room() {
+		// TODO Auto-generated constructor stub
 	}
 }
